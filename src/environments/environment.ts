@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  bitlyTOKEN: "b51620adef12acb7204fec968fc10d9e5196954f"
 };
 
 /*
