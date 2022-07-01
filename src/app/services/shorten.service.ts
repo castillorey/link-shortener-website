@@ -29,7 +29,6 @@ export class ShortenService {
     return this.api.post("https://api-ssl.bitly.com/v4/shorten", this.payload, this.httpOptions)
     .pipe(
       catchError((err) => {
-        console.error(err);
         return throwError(err);    //Rethrow it back to component
       })
     );

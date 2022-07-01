@@ -2,6 +2,8 @@
   height: 100vh;
 }
 
-.input-container {
-  
+@layer components {
+  .btn-indigo {
+    @apply px-4 py-2 rounded-r-lg bg-indigo-600 text-white;
+  }
 }
